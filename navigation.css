@@ -1,0 +1,54 @@
+body {
+	box-sizing: border-box;
+	font-family: Palatino, serif;
+	margin: 0;
+	padding: 0;
+}
+
+/*-----NAV BAR-------*/
+
+nav {
+	width: 100%;
+	height: 150px;
+	border-top: .5px solid #e74c3c;
+	background: #e74c3c;
+}
+
+ul {
+	font-size: 3em;
+	text-align: center;
+
+}
+
+li {
+	list-style: none;
+	display: inline;
+	margin-right: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #8e44ad;
+}
+
+a:hover {
+	color: white;
+	transition: .2s;
+}
+
+li:hover {
+	background: #8e44ad;
+	border-radius: 50%;
+	transition: .2s;
+}
+
+li: active {
+	transition: width: 110px;
+}
+
+
+
+
+
+
+
